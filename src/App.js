@@ -20,7 +20,7 @@ const App = () => {
     const collectionFirebase = collection( db , 'Headphone' )
     const collectionFirebase1 = collection( db , 'Speaker' )
 
-/*
+
     useEffect( ()=>{
 
       const getData= async()=>{
@@ -32,7 +32,7 @@ const App = () => {
       }
       getData()
     } ,[arrayEarphone , arraySpeaker] )
-*/
+
     const selectedProduct=(id)=>{
        const obj = arrayEarphone.find( a=> a.id===id )
        const obj1 = arraySpeaker.find( a=> a.id===id )
